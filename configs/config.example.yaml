@@ -1,0 +1,33 @@
+platforms:
+  facebook:
+    app_id: "YOUR_APP_ID"
+    app_secret: "YOUR_APP_SECRET"
+    access_token: "YOUR_ACCESS_TOKEN"
+    ad_account_id: "act_XXXXXXXXX"
+
+  google_ads:
+    developer_token: "YOUR_DEVELOPER_TOKEN"
+    client_id: "YOUR_CLIENT_ID"
+    client_secret: "YOUR_CLIENT_SECRET"
+    customer_id: "XXX-XXX-XXXX"
+
+  tiktok:
+    app_id: "YOUR_APP_ID"
+    secret: "YOUR_SECRET"
+    access_token: "YOUR_ACCESS_TOKEN"
+    advertiser_id: "XXXXXXXXX"
+
+  line_oa:
+    channel_id: "YOUR_CHANNEL_ID"
+    channel_secret: "YOUR_CHANNEL_SECRET"
+    access_token: "YOUR_ACCESS_TOKEN"
+
+analysis:
+  date_range: "last_30_days"
+  currency: "THB"
+  timezone: "Asia/Bangkok"
+
+reports:
+  output_format: "html"
+  output_dir: "./reports"
+  auto_send_email: false

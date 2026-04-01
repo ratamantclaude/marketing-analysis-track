@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+configs/config.yaml
+data/raw/*
+data/processed/*
+reports/
+*.db
+.venv/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
